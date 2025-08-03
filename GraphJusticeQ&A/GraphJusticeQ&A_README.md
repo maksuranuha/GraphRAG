@@ -103,7 +103,6 @@ SET
 - ❓ **Natural Language Q&A**: `GraphCypherQAChain` turns user queries into Cypher → executes → returns answer  
 - 🧠 **CLI Interface**: Lightweight interactive chat in your terminal  
 
----
 
 ## 📊 Sample Graph Stats
 
@@ -114,7 +113,6 @@ SET
 | Organizations  | 50    |
 | Crime Types    | 49    |
 
----
 
 ## 💬 Sample Questions
 
@@ -125,8 +123,6 @@ These are real questions users can ask:
 - "Are there any female fugitives?"
 - "Which fugitives are hiding in Brazil?"
 - "What crimes is John Doe wanted for?"
-
----
 
 ## 🧪 Example Output
 
@@ -139,7 +135,7 @@ You: Show me fugitives from the United States
 
 You: How many male vs female fugitives are there?
 🤖 There are 92 male fugitives and 3 female fugitives.
-
+```
 ## 🔧 Installation & Setup
 
 ### Prerequisites
@@ -155,7 +151,7 @@ NEO4J_URI = "neo4j+s://your-database-uri"
 NEO4J_USERNAME = "neo4j"
 NEO4J_PASSWORD = "your-password"
 GROQ_API_KEY = "your-groq-api-key"
-
+```
 
 ## 🧠 Why This Matters
 
@@ -172,4 +168,3 @@ It serves as a **template** for building trustworthy, explainable, and interacti
 - Research labs  
 - Investigative journalism  
 - AI education and graph reasoning tasks
-
