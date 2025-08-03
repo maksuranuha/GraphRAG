@@ -62,7 +62,7 @@ SET
   f.interpolRedNoticeProfile = row.`Interpol Red Notice Profile`,
   f.image = row.Image,
   f.reasonDetails = row.`Details of reason wanted for`
-
+```
 ## 🔗 Example Relationships
 
 ```cypher
@@ -70,8 +70,9 @@ SET
 (:Fugitive)-[:WANTED_BY]->(:Organization)
 (:Fugitive)-[:WANTED_FOR]->(:Crime)
 (:Fugitive)-[:BELIEVED_IN_COUNTRY]->(:Country)
-
+```
 ## 🧠 System Architecture
+```cypher
                 ┌──────────────┐
                 │  User Query  │
                 └──────┬───────┘
@@ -91,10 +92,7 @@ SET
                 ┌──────────────┐
                 │ Final Answer │
                 └──────────────┘
-
-
----
-
+```
 ## 💻 Code Highlights
 
 - 🔍 **Load CSV Data**: Fugitives loaded directly from a remote GitHub CSV  
@@ -174,3 +172,4 @@ It serves as a **template** for building trustworthy, explainable, and interacti
 - Research labs  
 - Investigative journalism  
 - AI education and graph reasoning tasks
+
