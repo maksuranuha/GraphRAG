@@ -2,15 +2,6 @@
 # 🔍 GraphJusticeQ&A
 A Knowledge Graph-based Question Answering system for Interpol fugitive data using Neo4j, LangChain, and LLMs.
 
-## 📊 Database Used
-
-### Neo4j AuraDB
-A fully managed cloud graph database with real-time insights, store manage data, with it you can use powerful graphs without worrying about infrastructure, it has built in security. A Property graph model -> 
-
-A sample data = {i. Nodes -> labels, ii. Relationships -> Relationships can be unidirectional or bidirectional, iii. Properties - Key value pairs} 
-
-Here, example -> Name and born are my attributes.
-
 ## Implementation
 We built this using:
 - **Neo4j AuraDB**: Our graph database brain
@@ -26,7 +17,7 @@ We're using real Interpol fugitive data from:
 https://github.com/ali-ce/datasets/blob/master/Interpol-Most-Wanted/Fugitives.csv
 ```
 
-### Data Loading
+### Data Loading with Neo4J
 We are directly fetching it from web using Cypher:
 ```cypher
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/ali-ce/datasets/master/Interpol-Most-Wanted/Fugitives.csv' AS row
@@ -155,4 +146,5 @@ GraphJusticeQ&A: There are 92 male fugitives and 3 female fugitives.
 
 This project is for educational and research purposes only. The data used is from publicly available Interpol sources.
 Always verify information through official channels for any real-world applications.
+
 
