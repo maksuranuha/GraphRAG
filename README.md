@@ -1,5 +1,5 @@
 ## 📖 What is a Knowledge Graph?
-<img width="1702" height="464" alt="Graph_RAG" src="https://github.com/user-attachments/assets/389fd1cb-0a43-4c07-90bb-91603ba4846d" />
+<img width="1702" height="464" alt="Graph_RAG" src="https://github.com/user-attachments/assets/8ec17d89-fcb1-4887-8e6f-6f8026448c47" />
 Knowledge Graph - Semantic Network of Real World Entities simply, a way to show how things are connected to each other.
 Eg. : Events, Situations, concept -> it illustrates the relationship between them! 
 
