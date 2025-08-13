@@ -2,7 +2,8 @@
 
 An advanced AI-powered game discovery platform that combines **Retrieval Augmented Generation (RAG)** with **Graph-based Advanced Traversal (AT)** to create the ultimate **RAGAT** system for personalized game recommendations.
 
-![Game Finder Interface](path/to/your/interface-image.png)
+<img width="1913" height="903" alt="Screenshot 2025-08-13 142932" src="https://github.com/user-attachments/assets/5c83ea64-8b08-4e89-a66e-30a07160496e" />
+
 
 ## 🌟 Features
 
@@ -33,7 +34,7 @@ An advanced AI-powered game discovery platform that combines **Retrieval Augment
 
 ### **Local Neo4j Installation Highly Recommended**
 
-This system creates an extensive relationship network with **500,000+ connections** between games. While Neo4j Aura can handle the data, its browser-based visualization tools struggle with networks of this scale.
+This system creates an extensive relationship network with **500,000+ connections** between games with embeddings. While Neo4j Aura can handle the data, its browser-based visualization tools struggle with networks of this scale.
 
 **Why Local Neo4j?**
 - **Performance**: Better handling of complex graph traversals
@@ -158,7 +159,7 @@ This system creates an extensive relationship network with **500,000+ connection
    GROQ_API_KEY=gsk_YOUR_API_KEY
    GROQ_MODEL=llama-3.3-70b-versatile
 
-   # OpenAI Configuration (Optional)
+   # OpenAI Configuration (Optional if you want to use OpenAI)
    # OPENAI_API_KEY=sk-YOUR_API_KEY
    # OPENAI_ENDPOINT_EMBEDDINGS=https://api.openai.com/v1/embeddings
    # OPENAI_ENDPOINT=https://api.openai.com/v1
@@ -173,6 +174,9 @@ This system creates an extensive relationship network with **500,000+ connection
    - `user_review`: Rating (0-10 scale)
 
 ### Database Setup
+> **Note:** The dataset used in this project was collected from Kaggle.  
+> You can replace it with any other game dataset of your choice by ensuring it has similar fields  
+> (e.g., `name`, `summary`, `user_review`, `platform`) and updating the Neo4j database accordingly.
 
 1. **Load game data**
    ```bash
@@ -277,15 +281,17 @@ MAX_TOKENS = 500
 
 The system creates rich relationship networks:
 
-![Graph Network 1](path/to/graph-image-1.png)
+<img width="891" height="498" alt="similar_story" src="https://github.com/user-attachments/assets/ca80e86f-61f4-4493-bee9-bfe05bcb49e6" />
 *Story similarity network showing connected games*
 
-![Graph Network 2](path/to/graph-image-2.png)
-*Platform and genre relationship clusters*
+<img width="891" height="498" alt="similar_rating" src="https://github.com/user-attachments/assets/9a2c8393-1725-4184-b4d3-28ccab18c3de" />
+*Similar high-rated games connection network*
 
-![Rating Relationships](path/to/rating-graph.png)
-*High-rated games connection network*
+<img width="891" height="498" alt="visualisation" src="https://github.com/user-attachments/assets/956075e4-9a3a-4928-9241-f91a7c4f7b60" />
+*Visualization*
 
+<img width="891" height="498" alt="available_on" src="https://github.com/user-attachments/assets/6e2807be-553a-44f9-bf28-20008f8b42a4" />
+*Avaiable Sites*
 ## 🔍 Query Examples and Results
 
 ### Database Statistics Query
@@ -329,12 +335,3 @@ RETURN g2.name, g2.user_review
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Neo4j**: Graph database platform
-- **Groq**: Lightning-fast LLM inference
-- **Streamlit**: Rapid web app development
-- **scikit-learn**: Machine learning utilities
-- **OpenAI**: Embedding technologies
-- **Game Database**: Community-contributed game metadata
