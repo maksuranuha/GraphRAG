@@ -55,6 +55,11 @@ This system creates an extensive relationship network with **500,000+ connection
 - **Relationships**: 509,075+ story similarity connections
 - **Platform Links**: 18,686 platform relationships
 - **Rating Connections**: 1,994 quality-based relationships
+  
+> **Note:** The dataset used in this project was collected from Kaggle.  
+> You can replace it with any other game dataset of your choice by ensuring it has similar fields  
+> (e.g., `name`, `summary`, `user_review`, `platform`) and updating the Neo4j database accordingly.
+
 
 ## 🏗️ Architecture Overview
 
@@ -174,9 +179,6 @@ This system creates an extensive relationship network with **500,000+ connection
    - `user_review`: Rating (0-10 scale)
 
 ### Database Setup
-> **Note:** The dataset used in this project was collected from Kaggle.  
-> You can replace it with any other game dataset of your choice by ensuring it has similar fields  
-> (e.g., `name`, `summary`, `user_review`, `platform`) and updating the Neo4j database accordingly.
 
 1. **Load game data**
    ```bash
