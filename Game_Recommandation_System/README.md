@@ -65,11 +65,17 @@ This system creates an extensive relationship network with **500,000+ connection
 
 The system creates rich relationship networks:
 
-<img width="891" height="498" alt="similar_rating" src="https://github.com/user-attachments/assets/9a2c8393-1725-4184-b4d3-28ccab18c3de" /> *Similar high-rated games connection network*
+<img width="891" height="498" alt="similar_rating" src="https://github.com/user-attachments/assets/9a2c8393-1725-4184-b4d3-28ccab18c3de" /> 
 
-<img width="891" height="498" alt="visualisation" src="https://github.com/user-attachments/assets/956075e4-9a3a-4928-9241-f91a7c4f7b60" /> *Visualization*
+*Similar high-rated games connection network*
 
-<img width="891" height="498" alt="similar_story" src="https://github.com/user-attachments/assets/ca80e86f-61f4-4493-bee9-bfe05bcb49e6" /> *Story similarity network showing connected games*
+<img width="891" height="498" alt="visualisation" src="https://github.com/user-attachments/assets/956075e4-9a3a-4928-9241-f91a7c4f7b60" /> 
+
+*Visualization*
+
+<img width="891" height="498" alt="similar_story" src="https://github.com/user-attachments/assets/ca80e86f-61f4-4493-bee9-bfe05bcb49e6" /> 
+
+*Story similarity network showing connected games*
 
 ## 🏗️ Architecture Overview
 
