@@ -1,4 +1,4 @@
-# 🎮 Game Recommendation System
+# 🎮 Game Recommendation System With RAGAT
 
 An advanced AI-powered game discovery platform that combines **Retrieval Augmented Generation (RAG)** with **Graph-based Advanced Traversal (AT)** to create the ultimate **RAGAT** system for personalized game recommendations.
 
