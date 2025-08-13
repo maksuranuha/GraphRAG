@@ -290,6 +290,7 @@ The system creates rich relationship networks:
 *Visualization*
 
 <img width="891" height="498" alt="similar_story" src="https://github.com/user-attachments/assets/ca80e86f-61f4-4493-bee9-bfe05bcb49e6" />
+
 *Story similarity network showing connected games*
 
 ## 🔍 Query Examples and Results
