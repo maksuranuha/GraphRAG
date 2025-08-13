@@ -283,17 +283,15 @@ MAX_TOKENS = 500
 
 The system creates rich relationship networks:
 
-<img width="891" height="498" alt="similar_story" src="https://github.com/user-attachments/assets/ca80e86f-61f4-4493-bee9-bfe05bcb49e6" />
-*Story similarity network showing connected games*
-
 <img width="891" height="498" alt="similar_rating" src="https://github.com/user-attachments/assets/9a2c8393-1725-4184-b4d3-28ccab18c3de" />
 *Similar high-rated games connection network*
 
 <img width="891" height="498" alt="visualisation" src="https://github.com/user-attachments/assets/956075e4-9a3a-4928-9241-f91a7c4f7b60" />
 *Visualization*
 
-<img width="891" height="498" alt="available_on" src="https://github.com/user-attachments/assets/6e2807be-553a-44f9-bf28-20008f8b42a4" />
-*Avaiable Sites*
+<img width="891" height="498" alt="similar_story" src="https://github.com/user-attachments/assets/ca80e86f-61f4-4493-bee9-bfe05bcb49e6" />
+*Story similarity network showing connected games*
+
 ## 🔍 Query Examples and Results
 
 ### Database Statistics Query
